@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main (){
+int a,b,height,area,peri;
+printf("enter a\n");
+scanf("%d",&a);
+printf("enter b\n");
+scanf("%d",&b);
+printf("enter height\n");
+scanf("%d",& height);
+peri=2*(b+a);
+area=b*height;
+printf("area=%d\n",area);
+printf("peri=%d\n",peri);
+}
